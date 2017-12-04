@@ -24,7 +24,7 @@ public class ServiceCreditCustomerRatingServiceImpl implements IServiceCreditCus
 
 	@Override
 	public String getStatus(Integer value) {
-		if(value.equals(123)){
+		if(value.equals(1234)){
 			return "true";
 		} else {
 			return "false";
